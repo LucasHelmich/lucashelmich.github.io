@@ -393,6 +393,10 @@ input, textarea {
   text-align: center;
 }
 
+.rechts-container a {
+  color: #ffffff;
+}
+
 .links-container,
 .rechts-container {
   flex: 1;
