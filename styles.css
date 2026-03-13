@@ -1393,3 +1393,70 @@ footer {
     margin-top: 10px;
   }
 }
+
+/* ===================== 404 Page ===================== */
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.error-card {
+  background-color: #e6e4ff;
+  color: #1a134d;
+  border-radius: 15px;
+  padding: 40px 50px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+}
+
+.error-code {
+  font-family: "museo-slab";
+  font-size: 6rem;
+  margin: 0;
+  color: #ff9f1c;
+}
+
+.error-title {
+  font-family: "museo-slab";
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.error-text {
+  font-family: "museo-sans";
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.error-actions {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.error-btn {
+  background-color: #ff9f1c;
+  color: #1a134d !important;
+  padding: 10px 22px;
+  border-radius: 12px;
+  font-family: "museo-slab";
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.error-btn:hover {
+  background-color: #ffbf69;
+  transform: translateY(-2px);
+}
+
+.error-link {
+  font-size: 0.9rem;
+  align-self: center;
+}
