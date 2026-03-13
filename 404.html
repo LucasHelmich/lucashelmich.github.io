@@ -12,6 +12,16 @@
     <title>Template page</title>
     <link rel="stylesheet" href="https://use.typekit.net/nmz3mvd.css">
     <link rel="stylesheet" href="styles.css">
+
+    <script>
+    (function() {
+      var path = window.location.pathname;
+    
+      if (!path.endsWith(".html") && path !== "/") {
+        window.location.replace(path + ".html");
+      }
+    })();
+    </script>
   </head>
 
   <body>
